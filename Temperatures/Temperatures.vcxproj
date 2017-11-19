@@ -146,6 +146,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Celsius.h" />
+    <ClInclude Include="Fahrenheit.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Celcius.cpp" />
+    <ClCompile Include="Fahrenheit.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
